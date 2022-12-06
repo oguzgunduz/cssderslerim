@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div.gallery {
+            float: left;
+
+
+            border: 1px solid rgb(26, 128, 153);
+            box-shadow: 0px 8px 10px 4px rgb(95, 95, 55);
+        }
+
+        div.gallery img {
+            width: 100%;
+            height: 250px;
+        }
+
+        div.desc {
+            padding: 15px;
+            text-align: center;
+        }
+
+        div.gallery:hover {
+            border: 3px solid black;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .responsive {
+            width: 25%;
+            padding: 0 6px;
+            float: left;
+        }
+        .clearfix::after{
+            content:"";
+            display: table;
+            clear: both;
+        }
+        @media only screen and (max-width: 700px) {.responsive{width: 50%;} }
+        @media only screen and (max-width: 500px) {.responsive{width: 50%;} }
+    </style>
+    
+</head>
+
+<body>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="fbbas.jpg">
+                <img src="fbbas.jpg" alt="fbsampiyon1" width="600" height="400">
+            </a>
+            <div class="desc">
+                Fenerbahçe Şampiyon Olcak İnşallah
+            </div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="fb.png">
+                <img src="fb.png" alt="fbsampiyon2" width="600" height="400">
+            </a>
+            <div class="desc">
+                Fenerbahçe Şampiyon Olcak İnşallah
+            </div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="febem.png">
+                <img src="febem.png" alt="fbsampiyon3" width="600" height="400">
+            </a>
+            <div class="desc">
+                Fenerbahçe Şampiyon Olcak İnşallah
+            </div>
+        </div>
+    </div>
+    <div class="responsive">
+        <div class="gallery">
+            <a target="_blank" href="jesuskupa.jpg">
+                <img src="jesuskupa.jpg" alt="fbsampiyon4" width="600" height="400">
+            </a>
+            <div class="desc">
+                Fenerbahçe Şampiyon Olcak İnşallah
+            </div>
+        </div>
+    </div>
+    <div class="clearfix">
+
+    </div>
+    <div>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Architecto ipsa ea aperiam minus quas, adipisci
+            voluptate iure dolore repellendus commodi eos praesentium? Ipsa quos consectetur, magni, iure ipsam quo
+            itaque quasi maxime sint, error est at natus nihil architecto alias dolores! Soluta iste repudiandae error
+            quasi molestias sequi commodi provident non nesciunt. Perspiciatis vero, nihil alias asperiores, ea facere
+            corporis et sint ipsam magni, nostrum itaque? Iure voluptates non temporibus perspiciatis rem tenetur
+            dignissimos asperiores praesentium facere atque quos quis doloremque quam sunt vero pariatur earum nemo
+            ipsam consequatur, illum ab nihil consectetur! Sit quod quia sapiente sequi. Magnam, impedit.</p>
+    </div>
+</body>
+
+</html>

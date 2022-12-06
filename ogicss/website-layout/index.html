@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .header {
+            text-align: center;
+            background-color: #f1f1f1;
+            padding: 25px;
+            color: black;
+        }
+
+        .nav a {
+            padding: 15px 17px;
+            float: left;
+            text-decoration: none;
+            color: white;
+        }
+
+        .nav a:hover {
+            background-color: grey;
+        }
+
+        .nav {
+            overflow: hidden;
+            background-color: black;
+        }
+
+        .column {
+            float: left;
+            padding: 15px;
+
+        }
+
+        .column.side {
+            width: 25%;
+        }
+
+        .column.middle {
+            width: 50%;
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        .row::after {
+            content: "";
+            display: table;
+            clear: both;
+        }
+
+        .footer {
+            text-align: center;
+            background-color: #f1f1f1;
+            color: black;
+            padding: 15px 12px;
+        }
+
+        @media screen and (max-width: 600px) {
+            .column.side {
+                width: 100%;
+            }
+            .column.middle{
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>Header</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, harum nesciunt odio corporis error inventore?
+        </p>
+    </div>
+    <div class="nav">
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+    </div>
+    <div class="row">
+        <div class="column side">
+            <h2>Side</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, atque rem. Ullam blanditiis quidem
+                excepturi, error est eos fugit delectus eius, alias minima, impedit quisquam! Eveniet in nihil
+                laboriosam qui.</p>
+        </div>
+        <div class="column middle">
+            <h2>Main content</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis ad magnam ipsam repellendus iure
+                recusandae quam consectetur quos. Commodi, corrupti quia aliquam quas animi culpa natus libero facilis
+                voluptate ut adipisci, suscipit magnam, fugit possimus et fugiat porro ex maxime? Rem nisi explicabo
+                asperiores omnis exercitationem dolores quam magnam placeat aspernatur labore, odit ut quibusdam
+                deleniti, qui minima repellendus quia ab corrupti ducimus, sint dolorem a. Aut, illum! Quibusdam
+                molestias dolorum nisi! Adipisci ut atque sed facilis voluptatem nesciunt sit quibusdam excepturi illum
+                animi ratione molestiae aperiam veniam, rerum ipsa ad ex delectus tempora numquam perspiciatis? Ipsum
+                reprehenderit, exercitationem autem cumque tenetur, possimus facere nemo architecto commodi eius
+                voluptatibus minus sapiente, laboriosam cupiditate. Ducimus nam, dolor quia adipisci dicta, harum
+                exercitationem reiciendis esse suscipit unde quam ut aliquid totam quis neque labore, fugit possimus
+                itaque. Eos accusantium molestias minus, possimus in optio ullam dignissimos dicta inventore quae
+                explicabo libero. Repellat?</p>
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui at natus voluptates veritatis iure
+                tempore, neque ad maxime nulla illum distinctio ipsam cumque quasi, incidunt eveniet! Doloremque nam
+                harum nemo quam tenetur recusandae, molestiae optio. Eos perferendis dignissimos, excepturi recusandae
+                consequuntur officia porro ea temporibus?
+            </p>
+        </div>
+        <div class="column side">
+            <h2>Side </h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia culpa consequuntur pariatur, adipisci
+                sint possimus velit sequi delectus reiciendis expedita ex. Eveniet ad rem numquam fugit, quaerat
+                voluptas a culpa distinctio consequuntur doloribus. Sit ea accusamus quidem ut facilis, nemo pariatur
+                accusantium aut totam in.</p>
+        </div>
+    </div>
+    <div class="footer">
+        <p>Footer</p>
+    </div>
+</body>
+
+</html>

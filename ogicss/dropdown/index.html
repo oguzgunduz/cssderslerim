@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* .ogi{
+            position: relative;
+            display: inline-block;
+        }
+        .dropdown-content{
+            position: absolute;
+            display: none;
+            background-color: aqua;
+            min-width: 200px;
+            box-shadow: 0px 10px 15px 0px yellow;
+            padding: 15px 26px;
+            text-align: center;
+            font-size: 20px;
+        }
+        p{
+            color: black;
+        }
+        .ogi:hover .dropdown-content{
+            display: block;       
+        }  */
+     
+
+        .dropdown-content {
+            position: absolute;
+            display: none;
+            background-color: rgb(125, 138, 138);
+            box-shadow: 0px 8px 10px 0px yellow;
+            min-width: 200px;
+        }
+
+        .ogi {
+            position: relative;
+            display: inline-block;
+        }
+
+        /* .drop-btn {
+            background-color: rgb(119, 10, 10);
+            color: white;
+            padding: 20px;
+            font-size: 20px;
+            border: none;
+            cursor: pointer;
+
+        } */
+
+        .dropdown-content a {
+            display: block;
+            color: white;
+            text-decoration: none;
+            padding: 10px 15px;
+
+        }
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown-content a:hover {
+            background-color: blue;
+        }
+
+        .ogi {
+            padding: 20px;
+            font-size: 20px;
+            text-align: center;
+        }
+
+        li {
+            float: left;
+        }
+
+        ul {
+            list-style-type: none;
+            background-color: black;
+            overflow: auto;
+        }
+
+        li a, .drop-btn {
+            text-decoration: none;
+            color: white;
+            padding: 15px 20px;
+            display: inline-block;
+        }
+        li a:hover,.dropdown:hover .drop-btn{
+            background-color: red;
+        }
+        a:hover{
+          color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- <h1>Hoverable Dropdown</h1>
+    <div class="ogi">
+        <span>Beni TIKLA</span>
+        <div class="dropdown-content">
+            <p>Ogi Gündüz</p>
+        </div>
+    </div> -->
+
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#news">News</a></li>
+        <li class="dropdown"><a href="javascript:void(0)" class="drop-btn">Dropdown</a>
+            <div class="dropdown-content">
+                <a href="#">Link1</a>
+                <a href="#">Link2</a>
+                <a href="#">Link3</a>
+            </div>
+        </li>
+    </ul>
+    <!-- <div class="dropdown" style="float: right;">
+        <img src="fbbas.jpg" alt="" width="100px" height="50px"> -->
+    <!-- <div class="dropdown-content">
+            <a href="#home">Home</a>
+            <a href="#contact">Contact</a>
+            <a href="#about">About</a> 
+            <img src="fbbas.jpg" alt="" width="300">
+            <div class="ogi" style="text-align:center;">Fenerbahçe Şampiyon</div>
+            
+        </div> -->
+    </div>
+</body>
+
+</html>

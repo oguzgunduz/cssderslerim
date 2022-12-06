@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        input[type=text],select{
+            width: 100%;
+            padding: 10px 20px;
+            margin: 8px 0px;
+            box-sizing: border-box;
+            border:2px solid blue;
+            border-radius: 15px;
+            font-size: 15px;
+            color: black;
+        }
+        input[type=text]:focus{
+            background-color: rgb(226, 226, 222);
+        }
+        input[type=text]:hover{
+            background-color: rgba(199, 199, 195, 0.856);
+        }
+        div{
+            padding: 20px;
+            background-color: rgba(152, 155, 125, 0.37);
+            border-radius: 15px;
+        }
+        label{
+            color: rgb(202, 202, 202)
+        }
+        input[type=submit]{
+            width: 100%;
+            padding: 15px 20px;
+            margin-top: 10px;
+            background-color: rgb(18, 173, 18);
+            border: none;
+            color: white;
+            cursor: pointer;
+        }
+    </style>
+
+
+</head>
+
+<body>
+    <div>
+        <form action="/Home/FormDoldur">
+            <label for="firstname" style="color: black;">First Name</label>
+            <input type="text" name="firstname" placeholder="Your Name">
+            <label for="lastname" style="color: black;">Last Name</label>
+            <input type="text" name="lastname" placeholder="Your Lastname">
+            <label for="country" style="color: black;">Country</label>
+            <select name="country" id="">
+                <option value="tr">Türkiye</option>
+                <option value="fr">Francais</option>
+                <option value="en">England</option>
+            </select>
+            <input type="submit" value="Kaydet">
+        </form>
+    </div>
+</body>
+
+</html>

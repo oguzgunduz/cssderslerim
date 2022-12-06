@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        .header {
+            text-align: center;
+            padding: 25px;
+            background-color: white;
+            color: black;
+        }
+
+        body {
+            background-color: #f1f1f1;
+            padding: 10px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        .nav a {
+            padding: 15px 17px;
+            float: left;
+            text-decoration: none;
+            color: white;
+        }
+
+        .nav a:hover {
+            background-color: grey;
+        }
+
+        .nav {
+            background-color: black;
+            overflow: hidden;
+        }
+        .sol{
+            float: left;
+            width: 75%;
+        }
+        .sag{
+            float: left;
+            width: 25%;
+            padding-left: 15px;
+        }
+        .card{
+            background-color: white;
+            padding: 20px;
+            margin-top: 20px;
+        }
+        *{
+            color: black;
+            box-sizing: border-box;
+        }
+        .fakeimg{
+            background-color: #aaa;
+            padding: 30px;
+            width: 100%;
+        }
+        .row::after{
+            content: "";
+            display: table;
+            clear: both;
+        }
+        .footer{
+            background-color: #ddd;
+            padding: 20px;
+            text-align: center;
+            margin-top: 20px;
+        }
+        @media screen and (max-width: 800px){
+            .sag,.sol{
+                width: 100%;
+            }
+        }
+            
+    </style>
+</head>
+
+<body>
+    <div class="header">
+        <h1>My Website</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta optio ullam veritatis maxime, et blanditiis.
+        </p>
+    </div>
+    <div class="nav">
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#">Link</a>
+        <a href="#" style="float: right;">Link</a>
+    </div>
+    <div class="row">
+        <div class="sol">
+            <div class="card">
+                <h2>TITLE HEADING</h2>
+                <h5>Title description, Dec 7, 2021</h5>
+                <div class="fakeimg" style="height: 200px;">Image</div>
+                <p>Some Text,</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat amet, omnis nobis, mollitia quam
+                    excepturi doloribus est reiciendis obcaecati architecto hic voluptate? Nostrum consequuntur error
+                    voluptatum? Ex quam aspernatur nemo iure minima alias dolore accusamus, asperiores maiores vel
+                    architecto aliquid sapiente harum. Temporibus, obcaecati. Dolorem dolores quidem necessitatibus
+                    nihil, eligendi nostrum rerum optio maxime corporis totam aliquid quos suscipit numquam expedita
+                    sapiente dignissimos perspiciatis! Laboriosam molestias voluptas alias blanditiis maiores quisquam
+                    architecto! Culpa tempora magni repellendus, ratione quos veniam quia harum? Animi sapiente in
+                    similique modi ab eum minus suscipit dolorem dicta magnam numquam laudantium, hic voluptatibus
+                    porro, repellendus eveniet qui vel quae. Dolores hic beatae ullam porro, repudiandae mollitia nam ex
+                    quisquam velit dicta consequuntur quod tempora, quasi quibusdam veniam unde harum enim! Explicabo,
+                    quidem! Saepe officia delectus vero asperiores odio deserunt reiciendis hic repellat sapiente
+                    perspiciatis porro tempore, fuga, totam enim. Quos tempore iusto vel nesciunt facere consequuntur!
+                </p>
+            </div>
+            <div class="card">
+                <h2>TITLE HEADING</h2>
+                <h5>Title description, Dec 7, 2021</h5>
+                <div class="fakeimg" style="height: 200px;">Image</div>
+                <p>Some Text,</p>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat amet, omnis nobis, mollitia
+                    quam
+                    excepturi doloribus est reiciendis obcaecati architecto hic voluptate? Nostrum consequuntur
+                    error
+                    voluptatum? Ex quam aspernatur nemo iure minima alias dolore accusamus, asperiores maiores vel
+                    architecto aliquid sapiente harum. Temporibus, obcaecati. Dolorem dolores quidem necessitatibus
+                    nihil, eligendi nostrum rerum optio maxime corporis totam aliquid quos suscipit numquam expedita
+                    sapiente dignissimos perspiciatis! Laboriosam molestias voluptas alias blanditiis maiores
+                    quisquam
+                    architecto! Culpa tempora magni repellendus, ratione quos veniam quia harum? Animi sapiente in
+                    similique modi ab eum minus suscipit dolorem dicta magnam numquam laudantium, hic voluptatibus
+                    porro, repellendus eveniet qui vel quae. Dolores hic beatae ullam porro, repudiandae mollitia
+                    nam ex
+                    quisquam velit dicta consequuntur quod tempora, quasi quibusdam veniam unde harum enim!
+                    Explicabo,
+                    quidem! Saepe officia delectus vero asperiores odio deserunt reiciendis hic repellat sapiente
+                    perspiciatis porro tempore, fuga, totam enim. Quos tempore iusto vel nesciunt facere
+                    consequuntur!
+                </p>
+            </div>
+        </div>
+        <div class="sag">
+            <div class="card">
+                <h2>About Me</h2>
+                <div class="fakeimg" style="height: 200px;">Image</div>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Corrupti officiis, quibusdam labore cumque
+                    nulla, assumenda tempora iste in placeat praesentium exercitationem dicta minus corporis animi.
+                    Fugit repellat nobis amet aspernatur?</p>
+            </div>
+            <div class="card">
+                <h3>Popular Post</h3>
+                <div class="fakeimg" style="height: 100px;">Image</div>
+                <div class="fakeimg" style="height: 100px;">Image</div>
+                <div class="fakeimg" style="height: 100px;">Image</div>
+            </div>
+            <div class="card">
+                <h3>Follow Me</h3>
+                <p>Some Text</p>
+            </div>
+        </div>
+    </div>
+    <div class="footer">
+        <h2>Footer</h2>
+    </div>
+</body>
+
+</html>
